@@ -21,3 +21,7 @@
 1) Export the pytorch models into the onnx files.
 2) Evaluate the onnx models on the video data at Jetson Nano.
 
+
+### Other
+
+The base models and pruned/quantized models and the corresponding onnx files are uploaded into the [OneDirve](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/zeyuan_yin_mbzuai_ac_ae/EhS7id5SfKdDnI7Ygcd_pHYBEt9hHw-c97kj_hIVhG6tSw?e=pNb4Df). (People in MBZUAI with the link can view)
