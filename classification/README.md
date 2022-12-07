@@ -1,4 +1,4 @@
-# For classification, we use this [repo](https://github.com/weiaicunzai/pytorch-cifar100) as base model. First download it.
+### For classification, we use this [repo](https://github.com/weiaicunzai/pytorch-cifar100) as base model. First download it.
 
 # Scripts to reproduce the result in the project.
 
