@@ -3,8 +3,7 @@
 # Scripts to reproduce the result in the project.
 
 ### Train baseline algorithms.
-`python train.py -net vgg16 -gpu`
-
+`python train.py -net vgg16 -gpu` <br>
 `python train.py -net mobilenet -gpu`
 
 `python train.py -net squeezenet -gpu`
