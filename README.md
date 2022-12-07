@@ -7,14 +7,14 @@
 2) Use the quantization/pruning methods to get a light models.
 3) Evaluate the light models and record the performance.
 
-#### Train baseline algorithms.
+### Train baseline algorithms.
 ```
 python train.py -net vgg16 -gpu
 python train.py -net mobilenet -gpu
 python train.py -net squeezenet -gpu
 ```
 
-#### Evaluate or prune the learned model 
+### Evaluate or prune the learned model 
 Both code of evaluation and prune are at `classification/prune+test.py` file. 
 
 When only evaluation, comment the code (line 50-60) of pruning.
@@ -28,7 +28,7 @@ python test.py -net mobilenet -weights ./checkpoint/mobilenet/Sunday_04_December
 
 
 
-#### Quantize the learned model 
+### Quantize the learned model 
 For quantization, run jupyter notebook script `classification/quant_model.ipynb`.
 
 
