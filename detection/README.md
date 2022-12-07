@@ -4,7 +4,7 @@
 
 ### Train baseline algorithms.
 
-`srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 train_ssd.py --net vgg16-ssd --data=data/fruit --pretrained-ssd='models/vgg16-ssd-mp-0_7726.pth' --model-dir=models/fruit_vgg  --batch-size 6 --lr 0.0003 --epochs=100`
+srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 train_ssd.py --net vgg16-ssd --data=data/fruit --pretrained-ssd='models/vgg16-ssd-mp-0_7726.pth' --model-dir=models/fruit_vgg  --batch-size 6 --lr 0.0003 --epochs=100
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 train_ssd.py --net mb1-ssd --data=data/fruit --pretrained-ssd='models/mobilenet-v1-ssd-mp-0_675.pth' --model-dir=models/fruit_mob1 --epochs=100  --batch-size 6 --lr 0.0003
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 train_ssd.py --net mb2-ssd-lite --data=data/fruit --pretrained-ssd='models/mb2-ssd-lite-mp-0_686.pth' --model-dir=models/fruit_mb2 --epochs=100 --batch-size 6 --lr 0.0003
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 train_ssd.py --net sq-ssd-lite- --data=data/fruit --model-dir=models/fruit_sq --epochs=100 --batch-size 6 --lr 0.0003
