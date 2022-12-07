@@ -16,7 +16,7 @@ srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 eval_ssd
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 eval_ssd.py --model=models/fruit_vgg/vgg16-ssd-Epoch-99-Loss-3.460213225887668.pth --label_file=models/fruit/labels.txt --net="vgg16-ssd" --dataset_type="open_images" --dataset=data/fruit/
 
 
-## Quant the learned model 
+### Quant the learned model 
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 quant-mb1.py
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 quant-mb2.py
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 quant-vgg.py
