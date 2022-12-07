@@ -1,6 +1,7 @@
 # Object-Detection-and-Tracking-on-Jetson-Nano
 > Group 06's Project for ML701@MBZUAI
 
+---
 ## Image Classification
 
 1) Follow the [repo](https://github.com/weiaicunzai/pytorch-cifar100) to get the base models.
@@ -31,7 +32,7 @@ python test.py -net mobilenet -weights ./checkpoint/mobilenet/Sunday_04_December
 ### Quantize the learned model 
 For quantization, run jupyter notebook script `classification/quant_model.ipynb`.
 
-
+---
 
 ## Object Detection
 
@@ -73,7 +74,7 @@ srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 prune-mb
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 prune-vgg.py
 srun --ntasks=1 --cpus-per-task=12 -p gpu -q gpu-8 --gres=gpu:1 python3 prune-sq.py
 ```
-
+---
 
 ## Object Tracking
 
