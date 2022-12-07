@@ -1,4 +1,7 @@
 # Scripts to reproduce the result in the project.
+```
+#!/bin/bash
+```
 
 ### Train baseline algorithms.
 ```
