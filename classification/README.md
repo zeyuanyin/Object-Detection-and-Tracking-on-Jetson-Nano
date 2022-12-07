@@ -24,5 +24,5 @@ Example：
 
 
 
-### Quant the learned model 
+### Quantize the learned model 
 For quantization, run jupyter notebook script `quant_model.ipynb`.
