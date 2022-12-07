@@ -17,5 +17,5 @@ python test.py -net mobilenet -weights ./checkpoint/mobilenet/Sunday_04_December
 
 
 
-## Quant the learned model 
+### Quant the learned model 
 For quantization, run jupyter notebook script quant_model.ipynb .
