@@ -87,7 +87,7 @@ python prune-sq.py
 1) Export the pytorch models into the onnx files.
 2) Evaluate the onnx models on the video data at Jetson Nano.
 
-**Check our results via this [Googole Drive Link](https://drive.google.com/file/d/1heZxAcVsm-r-ufDVO-Rp8o6xp8k_sXtj/view?usp=share_link
+**Watch demo of object tracking in video via this [Google Drive Link](https://drive.google.com/file/d/1heZxAcVsm-r-ufDVO-Rp8o6xp8k_sXtj/view?usp=share_link
 )**
 
 ---
